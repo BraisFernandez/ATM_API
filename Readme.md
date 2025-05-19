@@ -17,7 +17,9 @@ Una API REST para simular operaciones básicas de un cajero automático:
 1. Abrir la solución `ATM_API.sln` en Visual Studio 2022+
 2. Ejecutar el proyecto (F5 o botón Run)
 3. Acceder a la documentación en Swagger: https://localhost:<puerto>/swagger
-
+4. Las cuentas están creadas en el script ATMService.cs, por defecto hay dos cuentas creadas: 
+	-  `1234567890` con saldo de `5000 EUR`
+	-  `0987654321` con saldo de `1500 EUR`
 
 ## Endpoints disponibles
 
